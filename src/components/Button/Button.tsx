@@ -105,6 +105,7 @@ export const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
       round={round}
       {...props}
       withIcon={!!icon}
+      role="banner"
     >
       {icon && (
         <Icon color={clear ? color.primaryText : color.buttonText} size={iconSize} name={icon} />
